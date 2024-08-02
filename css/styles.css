@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 935px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto auto;
+}
+
+.header, .topNav, .footer {
+    background: #555;
+    color: #eee;
+    border-bottom: 1px solid #666;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 10px;
+    color: #eee;
+}
+
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px 10px 120px;
+}
+
+.topNav a {
+    color: #ccc;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.topNav a:hover {
+    color: #b88cff;
+}
+
+.content {
+    background: #444;
+    padding: 20px;
+    border: 1px solid #555;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.container img {
+    border-radius: 5px;
+}
+
+form {
+    background: #555;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #666;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #eee;
+    text-align: left;
+    width: 100%;
+}
+
+form input, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: #777;
+    color: #eee;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #b88cff;
+}
+
+form button {
+    background: #b88cff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    width: 50%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background: #a56eff;
+}
